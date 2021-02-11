@@ -1,6 +1,7 @@
 ---
 title: Easter egg
 date: 2018-05-01
+layout: layouts/notesTempl.njk
 ---
 
 # Easter Egg
