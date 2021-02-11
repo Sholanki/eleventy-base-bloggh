@@ -1,3 +1,9 @@
+---
+title: Food
+date: 2018-05-01
+layout: layouts/notebody.njk
+---
+
 # Food
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt [[bar|barrific]], voluptates tempore quidem impedit velit ea amet cupiditate eius nulla provident sapiente totam nobis iure quos? Eveniet quis aspernatur commodi.[^1]
