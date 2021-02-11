@@ -1,3 +1,9 @@
+---
+title: Easter egg
+date: 2018-05-01
+layout: layouts/notebody.njk
+---
+
 # Easter Egg
 
 Easter eggs are a thing.
