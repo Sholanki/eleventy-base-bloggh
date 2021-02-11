@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<section>
+<h1>{{ title }}</h1>
+
+{{ content | safe }}
+
+</section>
+<p class="backlinks-title larger">Backlinks</p>
+{% if backlinks.length > 0%}
+<ul class="backlinks-container">
+    {% for link in backlinks %}
+        <li class="backlink">
+            <a href="{{link.url}}" class="backlink__link">{{link.title}}</a>
+           
+        </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p class="backlinks-default">No backlinks found.</p>
+{% endif %}
