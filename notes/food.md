@@ -1,6 +1,7 @@
 ---
 title: Food
 date: 2018-05-01
+layout: layouts/notesTempl.njk
 ---
 
 # Food
