@@ -1,7 +1,6 @@
 ---
 title: Bar
 date: 2018-05-01
-layout: layouts/notebody.njk
 ---
 
 # Bar
