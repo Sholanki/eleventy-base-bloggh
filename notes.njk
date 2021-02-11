@@ -9,7 +9,6 @@ eleventyNavigation:
 {% set maxNotes = collections.notes.length %}
 <h1>Latest {% if maxNotes == 1 %}Note{% else %}{{ maxNotes }} Notes{% endif %}</h1>
 
-{% set noteslist = collections.notes | head(-3) %}
-{% set noteslistCounter = collections.notes | length %}
+{% set noteslist = collections.notes  %}
 {% include "noteslist.njk" %}
 
